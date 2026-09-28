@@ -1,0 +1,187 @@
+!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>زياد
+ & صلما ❤️</title>
+<style>
+:root{--pink:#ff78ad;--light:#ffd8e8;--wine:#6e163f;--bg:#160713}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at top,#541632 0%,#230d1c 48%,#10070f 100%);color:#fff2f7;font-family:Tahoma,Arial,sans-serif;text-align:center;min-height:100vh}
+button,input{font:inherit}
+button{border:0;border-radius:25px;padding:12px 20px;background:linear-gradient(135deg,#ff83b8,#b52a69);color:white;cursor:pointer;box-shadow:0 5px 18px #0003}
+button:hover{filter:brightness(1.1);transform:translateY(-1px)}
+input{width:100%;padding:13px;border-radius:14px;border:1px solid #ff8dbb;background:#210d1a;color:white;text-align:center;outline:none;margin:10px 0}
+#lock{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+.lock-card,.card{width:min(92%,600px);margin:18px auto;padding:25px 20px;border:1px solid #ff83b855;border-radius:25px;background:linear-gradient(145deg,#ffffff12,#ffffff05);box-shadow:0 12px 45px #0004}
+.lock-card{max-width:390px}
+h1{color:#ffb1d0;text-shadow:0 0 20px #ff4c9b;margin:10px 0}
+h2{color:#ffb4d1}
+.small{color:#ffd5e5;line-height:1.9}
+.heart{font-size:55px;animation:beat 1.4s infinite}
+@keyframes beat{50%{transform:scale(1.1)}}
+#site{display:none}
+.top{padding:24px 12px 8px}
+nav{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;padding:12px}
+nav button{padding:10px 14px}
+.page{display:none;padding:8px 12px 35px;animation:fade .35s}
+.page.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.date{display:inline-block;padding:9px 16px;border:1px solid #ff8dbb;border-radius:20px;color:#ffd5e5;background:#ff7aad12}
+.memory{font-size:18px;line-height:2}
+.big-quote{font-size:23px;color:#ffb4d1;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;max-width:720px;margin:auto}
+.tile{padding:18px;border:1px solid #ff83b84a;background:#ffffff0b;border-radius:20px}
+.tile .emoji{font-size:30px}
+.cd-row{display:flex;justify-content:center;gap:25px;flex-wrap:wrap;margin:25px 0}
+.cd-wrap{width:150px;cursor:pointer}
+.cd{height:140px;width:140px;border-radius:50%;margin:auto;background:repeating-radial-gradient(circle,#d8d0d9 0 2px,#625968 3px 5px,#29212e 6px 8px,#b9a9be 9px 11px);border:2px solid #f7ddeb;box-shadow:0 0 24px #ff6db3aa;display:grid;place-items:center;transition:.3s}
+.cd:hover{transform:rotate(10deg) scale(1.05)}
+.hole{width:55px;height:55px;border:5px solid #f7ddeb;border-radius:50%;background:#b52a69;display:grid;place-items:center;font-size:22px}
+#playerBox{display:none;max-width:530px;margin:18px auto;padding:14px;border-radius:20px;background:#180912;border:1px solid #ff83b8}
+iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:12px}
+.money{font-size:34px;color:#ffb4d1;font-weight:bold}
+footer{padding:25px;color:#e8aec8;font-size:13px}
+#toast{color:#ffb4d1;min-height:25px}
+</style>
+</head>
+<body>
+<section id="lock">
+ <div class="lock-card">
+  <div class="heart">🔐❤️</div>
+  <h1>حكاية زياد وصلما</h1>
+  <p class="small">مكان صغير لذكريات مش شبه أي ذكريات…<br>بس الأول، كلمة السر يا فضولي 😂💗</p>
+  <form id="passForm">
+   <input id="pass" type="password" inputmode="numeric" placeholder="اكتب الباسورد هنا" autocomplete="off">
+   <button type="submit">افتح حكايتنا 💌</button>
+  </form>
+  <p id="err" style="color:#ff9bbb"></p>
+ </div>
+</section>
+
+<div id="site">
+ <header class="top">
+  <div class="heart">💗</div>
+  <h1>زياد & صلما</h1>
+  <p class="small">مش مجرد شات… دي حكاية بدأت بالغلط وبقت ذكريات 😂❤️</p>
+  <span class="date">25 / 7 / 2024 — أول مسدج بالغلط 😂</span>
+ </header>
+
+ <nav>
+  <button onclick="showPage('home')">🏠 البداية</button>
+  <button onclick="showPage('memories')">📖 الذكريات</button>
+  <button onclick="showPage('songs')">💿 أغانينا</button>
+  <button onclick="showPage('dalaa')">🧸 الدلع</button>
+  <button onclick="showPage('debt')">💸 الحسابات</button>
+  <button onclick="showPage('letter')">💌 رسالة</button>
+ </nav>
+
+ <section id="home" class="page active">
+  <div class="card">
+   <h2>أهلًا بيكي في حكايتنا يا صلما 🥹❤️</h2>
+   <p class="memory">من أول مسدج بالغلط يوم 25/7/2024…<br>لحد كل ذكرى لسه بنضحك عليها لحد دلوقتي.</p>
+   <p class="big-quote">زياد ❤️ صلما</p>
+   <button onclick="showPage('memories')">نفتح كتاب الذكريات 📖</button>
+  </div>
+  <div class="card">
+   <p class="small">تنبيه مهم جدًا قبل ما تكملي 😂👇</p>
+   <p class="memory">الصفحة دي فيها حب وذكريات…<br>ومطالبة رسمية باسترداد 235 جنيه! 💸</p>
+  </div>
+ </section>
+
+ <section id="memories" class="page">
+  <h2>كتاب الذكريات 📖💗</h2>
+  <div class="grid">
+   <div class="tile"><div class="emoji">📩</div><h3>البداية بالغلط</h3><p>25/7/2024<br>أول مسدج بينا بالغلط 😂<br>مين كان يتوقع إن الغلطة دي يبقى وراها كل الحكاية دي؟</p></div>
+   <div class="tile"><div class="emoji">🛺</div><h3>خمسين جنيه بحالهم!</h3><p>أول مرة اتقابلنا فيها…<br>عدّيتك الشارع، وادّيت للتوك توك خمسين جنيه بحالهم 😂😂<br>ذكرى تتكتب في التاريخ.</p></div>
+   <div class="tile"><div class="emoji">🤙</div><h3>أول كول</h3><p>أول كول بينا…<br>وأول كلمة «بحبك» 😂❤️<br>لحظة ليها مكانها في الحكاية.</p></div>
+   <div class="tile"><div class="emoji">🫶</div><h3>مش هسيبك</h3><p>أول مرة جيت قلتلك «مش هسيبك»…<br>لما أمي كلمتك ❤️<br>تفصيلة صغيرة بس فاكرينها.</p></div>
+  </div>
+ </section>
+
+ <section id="songs" class="page">
+  <h2>ساوندتراك حكايتنا 🎶</h2>
+  <p class="small">اختاري الـ CD، والأغنية هتظهر هنا جوه الصفحة 💿</p>
+  <div class="cd-row">
+   <div class="cd-wrap" onclick="playSong('layla')"><div class="cd"><div class="hole">❤️</div></div><p>ليلي — كايروكي</p></div>
+   <div class="cd-wrap" onclick="playSong('without')"><div class="cd"><div class="hole">💗</div></div><p>أنا من غيرك — بهاء سلطان</p></div>
+  </div>
+  <div id="playerBox">
+   <h3 id="songName">الأغنية ❤️</h3>
+   <iframe id="player" src="" title="مشغل الأغنية" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+   <p class="small">لو الأغنية ما اشتغلتش لوحدها، دوسي تشغيل جوه الفيديو. محتاجة إنترنت 🎧</p>
+   <button onclick="stopSong()">اقفل الأغنية ✖</button>
+  </div>
+  <div class="card"><p>🎵 الأغنية اللي متفقين عليها: «ليلي» بتاعت كايروكي.</p><p>🎵 والأغنية التانية: «أنا من غيرك» لبهاء سلطان — يوم حد في الشتا اللي قبل اللي فات، لما رنيتي وقلتيلي أسمعها 🥹</p></div>
+ </section>
+
+ <section id="dalaa" class="page">
+  <h2>قاموس الدلع الرسمي 😂💞</h2>
+  <div class="card">
+   <p>الدلع اللي بتحبيه:</p><div class="big-quote">زياد 🧸</div>
+   <hr style="border-color:#ff83b855">
+   <p>الدلع اللي بحبه:</p><div class="big-quote">صلما 💗</div>
+   <p class="small">زياد وصلما… أسماء محدش يفهمها غير أصحاب الحكاية 😂❤️</p>
+  </div>
+  <div class="card"><div class="heart">🥹</div><p>كل واحد فينا له اسم دلع… بس الذكريات دي مالهاش نسخة تانية.</p></div>
+ </section>
+
+ <section id="debt" class="page">
+  <h2>قسم الحسابات والتحصيل 😂💸</h2>
+  <div class="card">
+   <p>بعد مراجعة الدفاتر والأوراق الرسمية…</p>
+   <p>المبلغ المستحق على صلما:</p>
+   <div class="money">235 جنيه 😂</div>
+   <p class="memory">يرجى السداد قبل انتهاء صلاحية الدلع ❤️</p>
+   <button onclick="document.getElementById('toast').textContent='تم تسجيل اعتراض صلما… الاعتراض مرفوض 😂💗'">اعتراض على الفاتورة 🙋‍♀️</button>
+   <p id="toast"></p>
+  </div>
+ </section>
+
+ <section id="letter" class="page">
+  <div class="card">
+   <h2>رسالة صغيرة ليكي يا صلما 💌</h2>
+   <p class="memory">من أول مسدج بالغلط، لأول مقابلة، لأول كول، وللأغاني اللي بقت مرتبطة بذكرياتنا… كل تفصيلة ليها حكاية.</p>
+   <p class="memory">يمكن نهزر كتير ونرخم على بعض، بس الحاجات الصغيرة دي هي اللي بتخلي الذكريات مميزة. ❤️</p>
+   <p class="big-quote">من سيبو لصلما… شكرًا على الذكريات 🫶🏻</p>
+   <p class="small">P.S. الـ235 جنيه لسه مطلوبين برضه 😂💸</p>
+  </div>
+ </section>
+ <footer>اتعملت مخصوص لحكاية سيبو وصلما ❤️</footer>
+</div>
+
+<script>
+document.getElementById('passForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ if(document.getElementById('pass').value==='15072010'){
+  document.getElementById('lock').style.display='none';
+  document.getElementById('site').style.display='block';
+ }else{
+  document.getElementById('err').textContent='الباسورد غلط يا فضولي 😂 جرّب تاني';
+ }
+});
+function showPage(id){
+ document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+ document.getElementById(id).classList.add('active');
+ if(id!=='songs') stopSong();
+ window.scrollTo({top:0,behavior:'smooth'});
+}
+function playSong(which){
+ const songs={
+  layla:{id:'_GmohsabF_U',name:'ليلي — كايروكي'},
+  without:{id:'H9MUAiBeb3w',name:'أنا من غيرك — بهاء سلطان'}
+ };
+ const song=songs[which];
+ document.getElementById('songName').textContent=song.name;
+ document.getElementById('player').src='https://www.youtube-nocookie.com/embed/'+song.id+'?autoplay=1&rel=0';
+ document.getElementById('playerBox').style.display='block';
+ document.getElementById('playerBox').scrollIntoView({behavior:'smooth',block:'center'});
+}
+function stopSong(){
+ document.getElementById('player').src='';
+ document.getElementById('playerBox').style.display='none';
+}
+</script>
+</body>
+</html>
